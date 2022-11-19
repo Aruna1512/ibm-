@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    * {box-sizing: border-box }
+	
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+form
+{ 
+color:blink;
+font-size:150%;
+}
+/* Full-width input fields */
+input[type="text"], input[type="password"] {
+  width: 20%;
+  padding: 10px;
+  margin: 2px 0 22px 0;
+  display: inline-block;
+  border : none;
+  background : whitesmoke;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #d33232;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+<form><center>
+  <div class="container">
+  <marquee><h3>VirtualEye - Life Guard for Swimming Pools to Detect Active Drowning</h3></marquee>
+    <h1>LOGIN</h1>
+    <p>Login with your credentials.</p>
+    
+
+    <label for="email"><b>Email :</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+    <label for="psw"><b>Password :</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+    <p><a href="prediction.html" class="registerbtn">LOGIN</a></p><br>
+	<br>
+	<p>Don't have an account?<a href="register.html">Sign Up</a>
+    <p><a href="logout.html" >LOGOUT</a></p><br>
+  </div></center>
+
+</form>
+</body>
+</html>
